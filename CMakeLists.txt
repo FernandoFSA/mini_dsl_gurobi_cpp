@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+project(cpp_opt_dsl LANGUAGES CXX)
+set(CMAKE_CXX_STANDARD 20)
+add_library(cpp-opt-dsl INTERFACE)
+target_include_directories(cpp-opt-dsl INTERFACE include)
+add_executable(basic_example examples/basic_usage.cpp)
+target_link_libraries(basic_example PRIVATE cpp-opt-dsl)
