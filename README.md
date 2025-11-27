@@ -64,7 +64,7 @@ int main() {
 
 ### Prerequisites
 - Gurobi Optimizer 10.0+ with C++ bindings
-- C++17 compatible compiler (GCC 7+, Clang 5+, MSVC 2019+)
+- C++20 compatible compiler (GCC 7+, Clang 5+, MSVC 2019+)
 - CMake 3.15+
 
 ### Basic Setup
